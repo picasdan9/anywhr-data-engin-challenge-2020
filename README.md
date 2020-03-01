@@ -20,6 +20,7 @@ pip install dnspython requests re bs4 pymongo pandas numpy
 The *movies* online database contains 2 collections
 * *locations* collection - equivalent to ``movie_spots.csv``
 * *movieIDs* collection - equivalent to ``movieIDs.csv``
+Python code
 ```
 mongoDBpass_guest = '0ra16Sa1wUpCdHrk'
 client = MongoClient('mongodb+srv://guest:{}@movie-spots-odvvz.mongodb.net/test?retryWrites=true&w=majority'.format(mongoDBpass_guest))
